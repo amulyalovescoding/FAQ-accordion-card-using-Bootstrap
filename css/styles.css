@@ -48,34 +48,32 @@ button {
 }
 
 .first-image {
-  width: 550px;
-  height: 600px;
+  width: 34.375rem;
+  height: 37.5rem;
   background-image: url(../images/illustration-woman-online-desktop.svg);
   background-repeat: no-repeat;
-  background-position-x: -50px;
-  background-position-y: 90px;
-  /* background-size: 85%; */
+  background-position-x: -3.125rem;
+  background-position-y: 5.625rem;
   position: absolute;
   z-index: 1;
 }
 
 .first-image img {
   position: absolute;
-  width: 190px;
-  height: 185px;
-  top: 220px;
-  left: -70px;
+  width: 11.875rem;
+  height: 11.5625rem;
+  top: 13.75rem;
+  left: -4.375rem;
 }
 
 .second-image {
-  width: 500px;
-  height: 690px;
+  width: 31.25rem;
+  height: 43.125rem;
   background-image: url(../images/bg-pattern-desktop.svg);
   background-repeat: no-repeat;
   position: absolute;
-  background-position-x: -544px;
-  background-position-y: -275px;
-  /* background-size: 195%; */
+  background-position-x: -34rem;
+  background-position-y: -17.1875rem;
 }
 
 .third-image img, .second-image img {
@@ -87,7 +85,7 @@ button {
 }
 
 .card {
-  padding: 0 0 0 20px;
+  padding: 0 0 0 1.25rem;
   --bs-card-border-width: 0;
 }
 
@@ -104,7 +102,7 @@ button {
   transform: rotate(180deg);
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 62rem) {
   .main-container {
     margin: 1rem;
   }
