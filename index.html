@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- custom stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <main class="px-lg-5 py-lg-5 m-md-5 m-sm-5 ">
+    <section class="main-container bg-white rounded-4">
+      <div class="row">
+        <div class="col-lg-6 image-container order-first">
+          <div class="first-image">
+            <img src="./images/illustration-box-desktop.svg" alt="illustration-box-desktop">
+          </div>
+          <div class="second-image">
+            <img src="./images/illustration-woman-online-desktop.svg" alt="illustration-woman-online-desktop">
+          </div>
+          <div class="third-image">
+            <img src="./images/bg-pattern-desktop.svg" alt="bg-pattern-desktop">
+          </div>
+        </div>
+
+        <div class="content-container col-lg-6 p-5 justify-content:space-evenly order-last">
+          <h1>FAQ</h1>
+          <p>
+            <button class="btn btn-white question text-start" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="collapseExample">
+              <span>How many team members can I invite? </span>
+              <img class="icon-arrow-down" src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </p>
+          <div class="collapse" id="faq1">
+            <div class="card card-body">
+              You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.
+            </div>
+          </div>
+          <hr>
+          <p>
+            <button class="btn btn-white question text-start" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="collapseExample">
+              <span>What is the maximum file upload size? </span>
+              <img class="icon-arrow-down" src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </p>
+          <div class="collapse" id="faq2">
+            <div class="card card-body">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </div>
+          </div>
+          <hr>
+          <p>
+            <button class="btn btn-white question text-start" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="collapseExample">
+              <span>How do I reset my password? </span>
+              <img class="icon-arrow-down" src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </p>
+          <div class="collapse" id="faq3">
+            <div class="card card-body">
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+            </div>
+          </div>
+          <hr>
+          <p>
+            <button class="btn btn-white question text-start" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="collapseExample">
+              <span>Can I cancel my subscription? </span>
+              <img class="icon-arrow-down" src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </p>
+          <div class="collapse" id="faq4">
+            <div class="card card-body">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </div>
+          </div>
+          <hr>
+          <p>
+            <button class="btn btn-white question text-start" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="collapseExample">
+              <span>Do you provide additional support? </span>
+              <img class="icon-arrow-down" src="images/icon-arrow-down.svg" alt="" />
+            </button>
+          </p>
+          <div class="collapse" id="faq5">
+            <div class="card card-body">
+              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/amulyalovescoding">Amulya Prakash</a>.
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+</html>
